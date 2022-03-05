@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Domain", "CocoaStore.Vendas.Domain\CocoaStore.Vendas.Domain.csproj", "{7B6D2045-EB5A-4897-8D77-D8B7209A65E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Domain", "src\CocoaStore.Vendas.Domain\CocoaStore.Vendas.Domain.csproj", "{7B6D2045-EB5A-4897-8D77-D8B7209A65E7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F82617E1-6605-445C-8AF5-4146ACD0CF46}"
 EndProject
@@ -8,15 +8,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2FE1F5E1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendas", "Vendas", "{556972CC-95C1-4B18-BDE4-FE5B2ECA7A4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Unit.Tests", "CocoaStore.Vendas.Unit.Tests\CocoaStore.Vendas.Unit.Tests.csproj", "{93E384B1-5DFB-4D23-9D5B-BE2193756C15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Unit.Tests", "src\CocoaStore.Vendas.Unit.Tests\CocoaStore.Vendas.Unit.Tests.csproj", "{93E384B1-5DFB-4D23-9D5B-BE2193756C15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Integration.Tests", "CocoaStore.Vendas.Integration.Tests\CocoaStore.Vendas.Integration.Tests.csproj", "{A10CD6F1-4B06-49E2-984A-F44ED8241CAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Integration.Tests", "src\CocoaStore.Vendas.Integration.Tests\CocoaStore.Vendas.Integration.Tests.csproj", "{A10CD6F1-4B06-49E2-984A-F44ED8241CAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estoque", "Estoque", "{45741919-B13C-4649-B3FB-348B35674125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Infra", "CocoaStore.Vendas.Infra\CocoaStore.Vendas.Infra.csproj", "{C9BE1FED-DCEB-4C94-93D9-CA99379739B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Infra", "src\CocoaStore.Vendas.Infra\CocoaStore.Vendas.Infra.csproj", "{C9BE1FED-DCEB-4C94-93D9-CA99379739B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Services", "CocoaStore.Vendas.Services\CocoaStore.Vendas.Services.csproj", "{747B99A4-5EE3-4F12-AB71-E437FB2A4A39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Services", "src\CocoaStore.Vendas.Services\CocoaStore.Vendas.Services.csproj", "{747B99A4-5EE3-4F12-AB71-E437FB2A4A39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

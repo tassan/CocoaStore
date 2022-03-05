@@ -1,4 +1,5 @@
-﻿using CocoaStore.Vendas.Unit.Tests.Config.Fixtures;
+﻿using CocoaStore.Vendas.Domain.CarrinhoDeCompras;
+using CocoaStore.Vendas.Unit.Tests.Config.Fixtures;
 using FluentAssertions;
 using Xunit;
 using Xunit.Abstractions;
@@ -14,6 +15,15 @@ public class ItemUnitTests : IClassFixture<CarrinhoFixture>
     {
         _carrinhoFixture = carrinhoFixture;
         _outputHelper = outputHelper;
+    }
+
+    [Fact]
+    public void Deve_CriarItem()
+    {
+        var item = new Item("12345678", "Novo Item", 10, 10m);
+
+        item.Should()
+            .NotBeNull();
     }
 
     [Fact]

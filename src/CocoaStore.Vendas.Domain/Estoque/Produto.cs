@@ -10,13 +10,14 @@ public class Produto : Entidade
         Codigo = codigo;
         Nome = nome;
         Preco = preco;
+        Descricao = "";
     }
 
     public Produto() { }
     
-    public string Codigo { get; set; }
-    public string Nome { get; set; }
-    public string Descricao { get; set; }
+    public string Codigo { get; set; } = null!;
+    public string Nome { get; set; } = null!;
+    public string Descricao { get; set; } = null!;
     public decimal Preco { get; set; }
 
     public override string ToString() => $"\n ({Codigo}) {Nome} Preço: {Preco} Desc.: {Descricao}";
