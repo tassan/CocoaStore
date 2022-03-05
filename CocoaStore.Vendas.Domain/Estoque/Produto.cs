@@ -18,7 +18,6 @@ public class Produto : Entidade
     public string Nome { get; set; }
     public string Descricao { get; set; }
     public decimal Preco { get; set; }
-    public Oferta Oferta { get; set; }
 
     public override string ToString() => $"\n ({Codigo}) {Nome} Preço: {Preco} Desc.: {Descricao}";
 }

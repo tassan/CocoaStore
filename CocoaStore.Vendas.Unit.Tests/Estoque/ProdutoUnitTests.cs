@@ -1,4 +1,5 @@
 ﻿using Bogus;
+using CocoaStore.Vendas.Domain.Descontos;
 using CocoaStore.Vendas.Domain.Estoque;
 using CocoaStore.Vendas.Unit.Tests.Config.Fixtures;
 using FluentAssertions;
