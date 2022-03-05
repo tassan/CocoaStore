@@ -1,9 +1,9 @@
-﻿using CocoaStore.Vendas.Unit.Tests.Fixtures;
+﻿using CocoaStore.Vendas.Unit.Tests.Config.Fixtures;
 using FluentAssertions;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace CocoaStore.Vendas.Unit.Tests;
+namespace CocoaStore.Vendas.Unit.Tests.Vendas;
 
 public class ItemUnitTests : IClassFixture<CarrinhoFixture>
 {

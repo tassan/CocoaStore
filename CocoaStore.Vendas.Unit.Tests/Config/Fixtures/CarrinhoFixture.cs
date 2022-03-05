@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Bogus;
 using CocoaStore.Vendas.Domain.CarrinhoDeCompras;
 
-namespace CocoaStore.Vendas.Unit.Tests.Fixtures;
+namespace CocoaStore.Vendas.Unit.Tests.Config.Fixtures;
 
 public class CarrinhoFixture
 {

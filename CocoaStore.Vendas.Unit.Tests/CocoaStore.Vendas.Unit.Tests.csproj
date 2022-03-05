@@ -27,4 +27,8 @@
       <ProjectReference Include="..\CocoaStore.Vendas.Domain\CocoaStore.Vendas.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Config" />
+    </ItemGroup>
+
 </Project>
