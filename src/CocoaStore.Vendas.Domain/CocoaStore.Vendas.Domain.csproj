@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <Folder Include="Shared" />
+      <Folder Include="Shared\Interfaces\Repositories\Descontos" />
     </ItemGroup>
 
 </Project>
