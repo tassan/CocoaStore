@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Domain", "CocoaStore.Vendas.Domain\CocoaStore.Vendas.Domain.csproj", "{7B6D2045-EB5A-4897-8D77-D8B7209A65E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F82617E1-6605-445C-8AF5-4146ACD0CF46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2FE1F5E1-2B87-4BC1-AF1C-D1C0445EC780}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendas", "Vendas", "{556972CC-95C1-4B18-BDE4-FE5B2ECA7A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Unit.Tests", "CocoaStore.Vendas.Unit.Tests\CocoaStore.Vendas.Unit.Tests.csproj", "{93E384B1-5DFB-4D23-9D5B-BE2193756C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaStore.Vendas.Integration.Tests", "CocoaStore.Vendas.Integration.Tests\CocoaStore.Vendas.Integration.Tests.csproj", "{A10CD6F1-4B06-49E2-984A-F44ED8241CAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B6D2045-EB5A-4897-8D77-D8B7209A65E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6D2045-EB5A-4897-8D77-D8B7209A65E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6D2045-EB5A-4897-8D77-D8B7209A65E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6D2045-EB5A-4897-8D77-D8B7209A65E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E384B1-5DFB-4D23-9D5B-BE2193756C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E384B1-5DFB-4D23-9D5B-BE2193756C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E384B1-5DFB-4D23-9D5B-BE2193756C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E384B1-5DFB-4D23-9D5B-BE2193756C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10CD6F1-4B06-49E2-984A-F44ED8241CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10CD6F1-4B06-49E2-984A-F44ED8241CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10CD6F1-4B06-49E2-984A-F44ED8241CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10CD6F1-4B06-49E2-984A-F44ED8241CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{556972CC-95C1-4B18-BDE4-FE5B2ECA7A4B} = {F82617E1-6605-445C-8AF5-4146ACD0CF46}
+		{7B6D2045-EB5A-4897-8D77-D8B7209A65E7} = {556972CC-95C1-4B18-BDE4-FE5B2ECA7A4B}
+		{93E384B1-5DFB-4D23-9D5B-BE2193756C15} = {2FE1F5E1-2B87-4BC1-AF1C-D1C0445EC780}
+		{A10CD6F1-4B06-49E2-984A-F44ED8241CAB} = {2FE1F5E1-2B87-4BC1-AF1C-D1C0445EC780}
+	EndGlobalSection
+EndGlobal
